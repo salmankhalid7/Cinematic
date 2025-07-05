@@ -1,1 +1,29 @@
-  
+body{
+    background-color: midnightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    height: 60vh;
+    display: flex;
+    gap: 0.6rem;
+    place-self: center;
+    justify-content: center;
+    margin-top: 4.2rem;
+}
+
+.section img{
+    height: 80vh;
+    width: 25vh;
+    border: solid;
+    border-color: aliceblue;
+    border-radius: 5px;
+    background-position: center;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+.section img:hover {
+    cursor: pointer;
+    width: 40vh;
+}
